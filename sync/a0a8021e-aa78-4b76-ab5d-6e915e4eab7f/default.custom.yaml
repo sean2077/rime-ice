@@ -1,0 +1,24 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.1
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Thu Aug  1 15:05:37 2024"
+  rime_version: 1.11.2
+patch:
+  ascii_composer:
+    good_old_caps_lock: true
+    switch_key:
+      {
+        Caps_Lock: clear,
+        Control_L: clear,
+        Control_R: noop,
+        Shift_L: commit_code,
+        Shift_R: noop,
+      }
+  schema_list:
+    - { schema: rime_ice }
+    - { schema: double_pinyin_flypy }
+  switcher/hotkeys:
+    - Control+grave
+  menu:
+    page_size: 9 # 候选词个数
