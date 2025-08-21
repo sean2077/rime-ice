@@ -5,10 +5,19 @@ customization:
   modified_time: "Fri Aug 15 12:36:49 2025"
   rime_version: 1.13.1
 patch:
+  schema_list:
+    - { schema: double_pinyin_flypy }
+  menu/page_size: 9
+  switcher/hotkeys:
+    - "Control+grave"
+  switcher/fold_options: false
   ascii_composer:
     good_old_caps_lock: true
-    switch_key: {Caps_Lock: clear, Control_L: clear, Control_R: noop, Shift_L: commit_code, Shift_R: noop}
-  schema_list:
-    - {schema: double_pinyin_flypy}
-  "switcher/hotkeys":
-    - "Control+grave"
+    switch_key:
+      {
+        Caps_Lock: clear,
+        Control_L: clear,
+        Control_R: noop,
+        Shift_L: commit_code,
+        Shift_R: noop,
+      }

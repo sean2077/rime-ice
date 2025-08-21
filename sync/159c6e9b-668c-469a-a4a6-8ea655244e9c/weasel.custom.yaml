@@ -2,7 +2,16 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.17.4
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Fri Aug 15 10:54:33 2025"
+  modified_time: "Tue Aug 19 16:58:39 2025"
   rime_version: 1.13.1
 patch:
-  "style/color_scheme": modern_warfare
+  style/color_scheme: modern_warfare
+  style/font_face: "LXGW Wenkai"
+  style/horizontal: false
+  style/layout/candidate_spacing: 0
+  style/layout/spacing: 0
+  style/layout/hilite_spacing: 0
+  style/layout/margin_x: 1
+  style/layout/margin_y: 1
+  style/layout/hilite_padding: 2
+  style/layout/border_width: 0
